@@ -26,7 +26,7 @@ This ended up requiring three distinct steps
 
 3. Add a "more" menu to state listings and a modal to display overfit results.
 
-## Overal +
+## Overal 📈
 
 * Satisfying to stitch together AI utils, django back-end, and Vue front-end
 
@@ -34,7 +34,7 @@ This ended up requiring three distinct steps
 
 * Andrew and Jonathan were very helpful
 
-## Overall -
+## Overall 📉
 
 * Requirements and timeline could have been scoped better
 	* Hopefully this retro will help with future tasks
@@ -48,7 +48,7 @@ state? How many transitions? How many intents?
 
 * I did not complete the task by the end of the sprint
 
-## Overall ∆
+## Overall 🔺
 
 * Encourage AI devs to build out http-friendly interfaces along with any command line utils
 
@@ -79,11 +79,11 @@ Factory.create_intent_with_utterances()
 
 * Fixed a bug involving integer-indexed `labels`
 
-#### +
+#### 📈
 
 * Relatively easy to understand and extend the code
 
-#### -
+#### 📉
 
 * Inconsistent code standards throughout. For example, lots of single letter
 variable names, which I am down with, but when I continued this pattern in
@@ -91,7 +91,7 @@ places I was asked to change it in the review.
 
 * Naming was not consistent for options. E.g., `other_intents_cutoff` -> `max_where`
 
-#### ∆
+#### 🔺
 
 * If exposing these tools in the platform is likely, it would be great for
 future scripts to be written for both command line and HTTP interfaces.
@@ -106,13 +106,13 @@ future scripts to be written for both command line and HTTP interfaces.
 * Added request specs for different scenarios
 * Added SOCKS config for insomnia testing
 
-#### +
+#### 📈
 
 * Lots of existing endpoints to glean a pattern from
 
 * HTTP unit test interface already configured
 
-#### -
+#### 📉
 
 * Slow feedback loop on even a single unit test
 
@@ -132,7 +132,7 @@ CLF payloads, I switched it to be a GET resource, which ultimately made more
 semantic sense semantically. This made it simpler for the client, but harder to
 test.
 
-#### ∆
+#### 🔺
 
 * Configure some kind of DB factory testing utility such as:
   https://github.com/FactoryBoy/factory_boy
@@ -160,13 +160,13 @@ required for typical state graph data
 
 * Make insights disabled ineligible states
 
-#### +
+#### 📈
 
 * Storybook style development was fast and efficient
 
 * Existing vuex patterns were easy to extend
 
-#### -
+#### 📉
 
 * The clinc_api.js file seems like it could be abstracted. With over 2k lines I
 think it's safe to say we've settled on a pattern
@@ -177,7 +177,7 @@ think it's safe to say we've settled on a pattern
 
 * Sorting ended up getting thrown out
 
-#### ∆
+#### 🔺
 
 * GraphQL implementation in the Django server
 	* https://github.com/graphql-python/graphene-django

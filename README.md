@@ -9,14 +9,14 @@ A base pattern to follow is:
 
 * What did you do?
 
-## +
+## 📈
 
 * What went well?
 
-## -
+## 📉
 
 * What didn't go well?
 
-## ∆
+## 🔺
 
 * What can you/others do to improve next time?
